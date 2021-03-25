@@ -1,5 +1,78 @@
 /**
  * 
+ *  SNACK 4
+ *  1. GENERATE AN ARRAY OF INTEGERS
+ *  2. SUM ALL OF THE ODD INDEX ELEMENTS AND PRINT IT
+ * 
+/**/
+
+
+// VARIABLES
+
+var numbers = [5,20,85,90,7,100,77,9,42,19];
+var sum = 0;
+
+// OUTPUT NUMBERS
+console.log(numbers);
+
+// EVENTS
+
+for( var i = 0; i < numbers.length; i++) {
+    var oddIndexNumbers = numbers[++i];
+    console.log(oddIndexNumbers);
+    sum += oddIndexNumbers;
+}
+
+// OUTPUT SUM
+
+console.log('Total: ' , sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * 
  * SNACK 3
  * 
  *  1. GENERATE AN ARRAY OF NAMES
@@ -8,7 +81,7 @@
  * 
 /**/
 
-
+/*
 // VARIABLES
 
 var names = ['filippo' , 'simona' , 'carlo'];
@@ -30,7 +103,7 @@ for( var i = 0; i < requestedNames; i++) {
 console.log(names);
 console.log(surnames);
 console.log(fullNames);
-
+*/
 
 
 
