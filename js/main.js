@@ -1,12 +1,50 @@
 /**
  * 
+ *  SNACK 5
+ *  1. GENERATE TWO ARRAY FILLED WITH NUMBERS OF DIFFERENT LENGTH
+ *  2. ADD ELEMENTS TO THE SHORTEST ONE UNTIL HE BECOMES EQUAL TO THE OTHER ONE
+ * 
+/**/
+
+
+// VARIABLES
+
+var container = [15, 59, 84, 20, 90];
+console.log(container);
+var numbers = [75, 99];
+console.log(numbers);
+
+//EVENTS
+
+if( container.length > numbers.length){
+
+    while(container.length > numbers.length) {
+        numbers.push(Math.floor(Math.random() * 10));
+    }
+
+    console.log(numbers);
+}  else if(container.length < numbers.length) {
+
+    while(container.length < numbers.length) {
+        container.push(Math.floor(Math.random() * 10));
+
+        console.log(container);
+}
+}
+
+
+
+
+
+/**
+ * 
  *  SNACK 4
  *  1. GENERATE AN ARRAY OF INTEGERS
  *  2. SUM ALL OF THE ODD INDEX ELEMENTS AND PRINT IT
  * 
 /**/
 
-
+/*
 // VARIABLES
 
 var numbers = [5,20,85,90,7,100,77,9,42,19];
@@ -26,46 +64,7 @@ for( var i = 0; i < numbers.length; i++) {
 // OUTPUT SUM
 
 console.log('Total: ' , sum);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 
@@ -109,44 +108,6 @@ console.log(fullNames);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * 
  *  SNACK 2
@@ -169,46 +130,6 @@ if(userNumber % 2 === 0) {
     console.log(userNumber + 1);
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
